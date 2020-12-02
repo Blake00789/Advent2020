@@ -30,7 +30,6 @@ namespace AdventOfCode2020
         public static int Part2(List<int> input)
         {
             Dictionary<int, int> entries = new Dictionary<int, int>();
-            //converting to a dict gives us O(1) access
             foreach (var item in input)
             {
                 entries.Add(item, 0);
